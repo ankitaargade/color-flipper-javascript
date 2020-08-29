@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+body {
+  background-color: gainsboro;
+}
+
+ul li a {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  display: block;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: white;
+  height: 48px;
+}
+.container-fluid {
+  /* background-color:; */
+  display: grid;
+}
+h2 {
+  width: 632.5px;
+  height: 72px;
+  margin: 200px auto auto auto;
+  padding: 16px;
+  background-color: #222222;
+  color: white;
+  display: block;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+
+  /* justify-content: center;
+  place-items: center; */
+}
+button {
+  margin: auto;
+  margin-top: 5%;
+
+  height: 46px;
+  width: 147px;
+  box-sizing: border-box;
+
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+#color {
+  color: #5599c8;
+}
